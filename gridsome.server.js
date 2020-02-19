@@ -6,8 +6,18 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = function (api) {
-  api.loadSource(({ addCollection, addSchemaTypes }) => {
+  api.loadSource(({ addCollection, actions, addSchemaTypes, schema}) => {
     // Use the Data Store API here: https://gridsome.org/docs/data-store-api/
+
+    const rssFeed = addCollection({
+      typeName: 'RssFeed'
+    })
+
+    rssFeed.addNode({
+      
+    })
+  
+
   })
 
   api.createPages(({ createPage }) => {

@@ -16,13 +16,14 @@
     "flexsearch": "^0.6.32",
     "gridsome": "^0.7.0",
     "gridsome-helper-json": "^1.0.3",
-    "gridsome-plugin-rss": "^1.2.0",
+    "gridsome-plugin-feed": "^1.0.2",
     "gridsome-source-craftql": "^0.1.1",
     "highlight.js": "^9.17.1",
     "marked": "^0.8.0",
     "vue-moment": "^4.1.0"
   },
   "devDependencies": {
+    "apollo-boost": "^0.4.7",
     "autoprefixer": "^9.7.3",
     "css-loader": "^3.4.0",
     "gridsome-plugin-tailwindcss": "^2.2.32",
